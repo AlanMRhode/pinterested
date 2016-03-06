@@ -2,6 +2,7 @@
 	<h1>Pinterested</h1>
 	<h2>A Pinterest Clone by Alan M. Rhode, CFP®</h2>
 	<% if user_signed_in? %>
+		<%= link_to "List Pins", pins_path, class: "btn btn-default" %> 
         <%= link_to "Edit Profile", edit_user_registration_path, class: "btn btn-default" %>
 		<%= link_to "Logout", destroy_user_session_path, method: :delete, class: "btn btn-primary" %>
 	<% else %>
