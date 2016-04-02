@@ -31,6 +31,9 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 # gem 'capistrano-rails', group: :development
 gem 'paperclip', '~> 4.3', '>= 4.3.5'
 gem 'aws-sdk-v1'
+gem 'masonry-rails', '~> 0.2.4'
+gem 'jquery-turbolinks'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
